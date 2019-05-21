@@ -1,0 +1,20 @@
+ { 
+    
+     "teachers":[ 
+    
+    {
+      "name":"Asif",
+      "age": 43
+    },
+      {
+        "name":"sushil",
+        "age": 39
+      },
+      {
+        "name":"anil",
+        "age": 37
+      }
+    
+
+    ]
+}

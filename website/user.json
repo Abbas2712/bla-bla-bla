@@ -1,0 +1,15 @@
+{
+    "name":"Abbas",
+    "favoritenumber":[1,9],
+    "isProgrammer":true,
+    "hobbies":["gaming","programming","photograper"],
+    "friends":[{
+        "name":"jabir",
+        "favoritenumber": 4,
+        "isprogrammer":false,
+        "hobbies":["gaming","astrophysis","tracking"],
+        "friends":[]
+
+    }]
+    
+}

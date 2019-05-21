@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+<title>Page Title</title>
+</head>
+    <body>
+      <ul id="teachers"></ul>
+      <script>
+        var person = { 
+        "name": "Abbas",
+        "favoritenumber":[1,9],
+        "isProgrammer":true,
+        "hobbies":["gaming","programming","photograper"],
+        "friends":[{
+         "name":"jabir",
+         "favoritenumber": 4,
+         "isprogrammer":false,
+         "hobbies":["gaming","astrophysis","tracking"],
+                   }]
+        }
+        var teachers =[ 
+        {
+          "name":"Asif",
+          "age": 43,
+        },
+          {
+            "name":"sushil",
+            "age": 39,
+          },
+          {
+            "name":"anil",
+            "age": 37,
+          }
+
+          ];
+                   var output ='' 
+          //person = JSON.stringify(person);
+          //person = JSON.parse(person.);          
+         //console.log(teachers[2]);
+         for(var i = 0;i < teachers.length;i++){
+            // console.log(teachers[i]);
+            output +='<li>'+teachers[i].name+'</li>'; 
+         }
+         document.getElementById('teachers').innerHTML = output;
+      </script>
+
+<img src="kratos.jpg" alt="Missing kratos?" width="720" height="290" a href="https://github.com/Abbas2712"></a>
+<br>
+<hr>
+<a href="https://github.com/Abbas2712"> For more info</a>
+<h1>Welcome to my Page</h1>
+<p>I am a Engineering student, studying in MMBGIT, My hobby is to play games .</p>
+<hr>
+<h2> Submit Form </h2>
+<form>
+First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
